@@ -1,0 +1,12 @@
+#editor-container {
+  width: 90vw;
+  height: 90vh;
+  overflow: hidden;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+
+#editor {
+  flex-grow: 1;
+}

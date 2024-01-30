@@ -1,0 +1,29 @@
+.cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+}
+
+.cursor svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.cursor .cursor-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cursor .cursor-container .cursor-username {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  border-radius: 5px;
+  transform: translate(100%, 100%);
+  white-space: nowrap;
+}
